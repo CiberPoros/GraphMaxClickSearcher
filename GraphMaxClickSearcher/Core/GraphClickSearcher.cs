@@ -25,7 +25,7 @@ namespace GraphMaxClickSearcher
         private (long clickMask, int cntVertex) GetMaxClickInternal(long[] graph, long currentClickMask = 0, int cntVertex = 0, int currentIndex = 0)
         {
             var result = (currentClickMask, cntVertex);
-            var indexMask = 1L;
+            var indexMask = 1L << currentIndex;
             for (int i = currentIndex; i < graph.Length; i++, indexMask <<= 1)
             {
                 if ((currentClickMask & graph[i]) == currentClickMask)
