@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GraphMaxClickSearcher.Core
+namespace GraphMaxClickSearcher
 {
     public class GraphClickSearcher
     {

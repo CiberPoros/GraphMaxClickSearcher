@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace GraphMaxClickSearcher.GraphIO
+namespace GraphMaxClickSearcher
 {
     internal class GraphFileReader : IGraphReader
     {

@@ -1,4 +1,4 @@
-﻿namespace GraphMaxClickSearcher.GraphIO
+﻿namespace GraphMaxClickSearcher
 {
     internal interface IGraphReader
     {
